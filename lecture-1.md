@@ -1,11 +1,8 @@
 # Lecture 1: What is algebraic about algebraic effects and handlers?
 
-The purpose of the first lecture is to review algebraic theories and related
-concepts, and connect them with computational effects. We shall start on the
-mathematical side of things and gradually derive from it a programming language.
+The purpose of the first lecture is to review algebraic theories and related concepts, and connect them with computational effects. We shall start on the mathematical side of things and gradually derive from it a programming language.
 
-The contents of this lecture is a bit ambitious. It is likely that the part
-about comodels will spill over to the second lecture.
+The contents of this lecture is a bit ambitious. It is likely that the part about comodels will spill over to the second lecture.
 
 ## Outline
 
