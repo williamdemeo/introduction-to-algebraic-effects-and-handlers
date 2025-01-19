@@ -1,9 +1,26 @@
-# Lecture 4: Programming with algebraic effects and handlers
+# Programming with algebraic effects and handlers
 
 In the last lecture we shall explore how algebraic operations and handlers can
 be used in programming.
 
-----------
+## Eff
+
+There are several languages that support algebraic effects and handlers. The
+ones most faithful to the theory of algebraic effects are [Eff](http://www.eff-lang.org) and the [multicore
+OCaml](https://github.com/ocamllabs/ocaml-multicore). They have very similar syntax, and we could use either, but let us use
+Eff, just because it was the first language with algebraic effects and handlers.
+
+You can [run Eff in your browser](http://www.eff-lang.org/try/) or [install it](https://github.com/matijapretnar/eff/#installation--usage) locally. The page also has a quick
+overview of the syntax of Eff, which mimics the syntax of OCaml.
+
+## Reading material
+
+We shall draw on examples from [An introduction to algebraic effects and handlers](http://www.eff-lang.org/handlers-tutorial.pdf)
+and [Programming with algebraic effects and handlers](https://arxiv.org/abs/1203.1539). Some examples can be seen
+also at the [Effects Roset Stone](https://github.com/effect-handlers/effects-rosetta-stone).
+
+
+-----------
 
 ## Outline
 
@@ -20,22 +37,6 @@ be used in programming.
 * Cooperative multi-threading
 
 -----------
-
-## Reading material
-
-We shall draw on examples from [An introduction to algebraic effects and handlers](http://www.eff-lang.org/handlers-tutorial.pdf)
-and [Programming with algebraic effects and handlers](https://arxiv.org/abs/1203.1539). Some examples can be seen
-also at the [Effects Roset Stone](https://github.com/effect-handlers/effects-rosetta-stone).
-
----------------
-
-## Eff
-
-There are several languages that support algebraic effects and handlers. The ones most faithful to the theory of algebraic effects are [Eff](http://www.eff-lang.org) and the [multicore OCaml](https://github.com/ocamllabs/ocaml-multicore). They have very similar syntax, and we could use either, but let us use Eff, just because it was the first language with algebraic effects and handlers.
-
-You can [run Eff in your browser](http://www.eff-lang.org/try/) or [install it](https://github.com/matijapretnar/eff/#installation--usage) locally. The page also has a quick overview of the syntax of Eff, which mimics the syntax of OCaml.
-
-----------------------
 
 
 ## Basic examples
@@ -143,6 +144,4 @@ probabilistic computations.
 ## Problem: recursive cows
 
 Contemplate the [recursive cows](https://github.com/effect-handlers/effects-rosetta-stone/tree/master/examples/recursive-cow).
-
-
 
